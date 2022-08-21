@@ -1,7 +1,7 @@
 # IsiCompilador
 Gustavo Gualberto Rocha de Lemos RA 21008313
 
-**Compilador da Linguagem IsiLanguage para a Disciplina de Compiladores**
+**Compilador da Linguagem IsiLanguage feito em Haskell com a ferramenta Stack para a Disciplina de Compiladores**
 
 Recursos entregues:
 
