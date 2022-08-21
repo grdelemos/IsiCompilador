@@ -14,8 +14,6 @@ main = do
     args <- getArgs       
     file <- openFile (head args) ReadMode
     text <- hGetContents file
-    --(print. tokenize) text
-    --(print. parse. tokenize) text
     let toks = tokenize text
         tree = parse toks
         (code, warnings) = case args !! 1 of
