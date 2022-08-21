@@ -1,0 +1,70 @@
+programa
+declarenum a, b, c, semUsar.
+declaretxt naoUsada, entrada.
+a := 1.58 / (2 - 1 + 6).
+b := 2.02 * 5.69.
+escreva ("digite a entrada: \n").
+leia (entrada).
+escreva ("entrada é o texto: ").
+escreva (entrada).
+entrada := "oi".
+escreva ("entrada agora é o texto: ").
+escreva (entrada).
+
+se (a <= 2.5454) entao
+{
+    se (b >= 1.99) entao
+    {
+        c := 10 ^ 2.
+        escreva ("c Vale: ").
+        escreva (c).
+        escreva ("\n").
+        c := log (10).
+        escreva ("c Vale: ").
+        escreva (c).
+        escreva ("\n").
+        c := log2 (25).
+        escreva ("c Vale: ").
+        escreva (c).
+        escreva ("\n").
+        escreva (c).
+        c := rzqd (25). 
+        escreva ("c Vale: ").
+        escreva (c).
+        escreva ("\n").
+    }
+    
+    c := 1.32.
+    escreva ("c Vale: ").
+    escreva (c).
+    escreva ("\n").
+    c := 52 ^ 3.
+    escreva ("c Vale: ").
+    escreva (c).
+    escreva ("\n").
+
+}
+
+se (c > 52 ^ 3) entao
+{
+    c := 1.
+}
+senao
+{
+    enquanto (c <= 10) faça
+    {
+        c:= c + 1.
+        escreva (c).
+        escreva ("\n").
+    }
+    c := a - b.
+    c := 5.69.
+}
+escreva (c).
+enquanto (c <= 8) faça
+{ 
+    c := c + 1.
+    escreva (c).
+    escreva ("\n").
+}
+fimprog.

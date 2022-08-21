@@ -1,0 +1,34 @@
+programa
+
+declarenum i, n, t1, t2, t3, proxtermo.
+
+t1 := 0.
+t2 := 1.
+i := 3.
+proxtermo := t1 + t2.
+
+escreva ("Digite o numero de termos: ").
+leia (n).
+
+escreva ("Serie de Fibonacci: ").
+escreva ("\n").
+escreva (t1).
+escreva ("\n").
+escreva (t2).
+escreva ("\n").
+
+
+enquanto (i <= n) faça
+{
+    escreva (proxtermo).
+    escreva ("\n").
+    t1 := t2.
+    t2 := proxtermo.
+    proxtermo := t1 + t2.
+    i := i + 1.
+}
+
+
+
+fimprog.
+

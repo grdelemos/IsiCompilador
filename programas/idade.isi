@@ -1,0 +1,22 @@
+programa
+declarenum idade, opc, ano.
+declaretxt nome.
+
+opc := 1.
+
+enquanto (opc != 0) faça
+{
+    escreva("Oi! Digite seu nome: ").
+    leia (nome).
+    escreva("Digite em que ano você nasceu: ").
+    leia (ano).
+    idade := 2022 - ano.
+    escreva (nome).
+    escreva ("a sua idade é ").
+    escreva (idade).
+    escreva ("\n").
+    escreva ("se quiser terminar, digite 0. Para continuar digite 1").
+    leia (opc).
+}
+
+fimprog.
