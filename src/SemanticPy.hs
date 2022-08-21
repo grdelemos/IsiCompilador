@@ -35,7 +35,6 @@ semanticPy (NoProg declara blocos) symTab =
     (declr, symTab') =  declarar declara symTab
     (blc, symTab'') = avaliaBloco blocos symTab'
     in
-    --error $ "erro" ++ show symTab''
     
     ("import math\n" ++ declr ++ blc, warnings symTab'')
 

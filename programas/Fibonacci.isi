@@ -1,7 +1,6 @@
 programa
 
 declarenum i, n, t1, t2, t3, proxtermo.
-
 t1 := 0.
 t2 := 1.
 i := 3.

@@ -11,7 +11,7 @@ Recursos entregues:
 - [x] Verificar Atribuições com compatibilidade de tipos (semântica) 	
 - [x] Possuir operações de Entrada e Saída	
 - [x] Aceitar números decimais 	
-- [x] Verificar declaração de variávies (não usar variáveis que não foram declaradas)	
+- [x] Verificar declaração de variáveis (não usar variáveis que não foram declaradas)	
 - [x] Verificar se há variáveis declaradas e não-utilizadas (warning)	
 - [x] Geração de pelo menos 1 linguagem destino (C/Java/Python)
 
@@ -21,3 +21,5 @@ Recursos entregues:
 - [x] Geração de código para mais de uma linguagem diferente (C e Python)
 
 **Link do Vídeo:** 
+
+https://youtu.be/4ohzffRiwKU
